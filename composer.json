@@ -1,0 +1,39 @@
+{
+    "name": "panlatent/craft-credentials",
+    "description": "Centrally manage your cloud service credentials and third-party API credentials for CraftCMS",
+    "type": "craft-plugin",
+    "version": "0.1.0",
+    "require": {
+        "php": ">=7.2.5",
+        "craftcms/cms": "^3.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "panlatent\\craft\\credentials\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panlatent",
+            "email": "panlatent@gmail.com",
+            "homepage": "https://panlatent.com/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "support": {
+        "docs": "https://github.com/panlatent/craft-credentials/blob/master/README.md",
+        "issues": "https://github.com/panlatent/craft-credentials/issues"
+    },
+    "extra": {
+        "name": "Credentials",
+        "handle": "credentials",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/panlatent/craft-credentials/master/CHANGELOG.md",
+        "class": "panlatent\\craft\\credentials\\Plugin",
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
